@@ -1,4 +1,4 @@
-function getFirstSelector(selector) {
+/*function getFirstSelector(selector) {
   return document.querySelector(selector)
 }
 
@@ -24,3 +24,6 @@ function deepestChild() {
 
   return output
 }
+*/
+
+console.log("somethiniiing")
