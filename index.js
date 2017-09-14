@@ -1,4 +1,4 @@
-/*function getFirstSelector(selector) {
+function getFirstSelector(selector) {
   return document.querySelector(selector)
 }
 
@@ -16,14 +16,15 @@ function increaseRankBy(n) {
 function deepestChild() {
   let output = document.querySelector('#grand-node')
   let next = output.children[0]
-  console.log("there should be something here")
   while (next) {
     output = next
+  return next
+    
     next = output.children[0]
   }
 
   return output
 }
-*/
 
-console.log("somethiniiing")
+
+console.log(deepestChild())
