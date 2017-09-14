@@ -16,7 +16,6 @@ function deepestChild() {
   let next = output.children[0]
   while (next) {
     output = next
-  return next
 
     next = output.children[0]
   }
@@ -24,5 +23,3 @@ function deepestChild() {
   return output
 }
 
-
-console.log(deepestChild())
